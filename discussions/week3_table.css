@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+table {
+  border-spacing: 0px;
+  max-width: 700px;
+  margin: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: lightblue;
+}
+.course-title {
+  font-weight: bold;
+}
+caption {
+  padding: 15px;
+}
+thead,
+thead > tr,
+th {
+  background-color: lightblue;
+  text-align: left;
+}
+th,
+td {
+  padding: 5px 20px;
+}
