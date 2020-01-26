@@ -4,3 +4,8 @@
 
 /.vs/CIS373/v16/TestStore/0
 /.vs/slnx.sqlite
+/cognitive-relay/src/bin
+/cognitive-relay/src/obj
+/cognitive-relay/.vs/CognitiveRelay
+/cognitive-relay/.vs/config
+/cognitive-relay/src/Properties/PublishProfiles

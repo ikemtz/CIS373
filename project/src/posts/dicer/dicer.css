@@ -1,0 +1,11 @@
+.smaller {
+  width: 50px;
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+#speedRange {
+  direction: rtl;
+}
