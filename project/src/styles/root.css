@@ -1,0 +1,15 @@
+body {
+  background-color: whitesmoke;
+  color: black;
+}
+a:visited,
+a:link,
+a {
+  color: darkcyan;
+}
+nav {
+  background-color: darkcyan;
+}
+.nav-link {
+  color: white !important;
+}
