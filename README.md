@@ -4,8 +4,14 @@ Course work for Strayer U CIS 373 - Web Design and Development
 
 Professor: Ali Rahat-Zafar
 
-Discussion Site Hosted at: https://ikemtz-cis373.azurewebsites.net
-Project Site Hosted at: https://coolwebdev.azurewebsites.net
-Cognitive Services API Hosted at: https://ikemtz-cognitiveservices.azurewebsites.net/
+Discussion Site Hosted at:
+  https://ikemtz-cis373.azurewebsites.net
 
-Docker Repository: https://hub.docker.com/repository/docker/ikemtz/cis373
+Project Site Hosted at:
+  https://coolwebdev.azurewebsites.net
+
+Cognitive Services API Hosted at:
+  https://ikemtz-cognitiveservices.azurewebsites.net/
+
+Docker Repository:
+  https://hub.docker.com/repository/docker/ikemtz/cis373
