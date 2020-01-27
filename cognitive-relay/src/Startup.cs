@@ -25,7 +25,7 @@ namespace CognitiveRelay
       services.AddApplicationInsightsTelemetry(instrumentationKey);
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
       services.AddSingleton<IDataAccess, DataAccess>();
-      services.AddSingleton<IAzureCognitiveServiceProvider, AzureCognitiveServiceProvider>();
+      services.AddSingleton<IAzureCognitiveServiceProvider>(t => new AzureCognitiveServiceProvider(Configuration));
       services.AddSwaggerGen(c =>
       {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "My Comments API", Version = "v1" });

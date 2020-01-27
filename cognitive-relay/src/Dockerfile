@@ -8,10 +8,10 @@ WORKDIR /src
 COPY "CognitiveRelay.csproj" .
 RUN dotnet restore "CognitiveRelay.csproj"
 COPY . .
-RUN dotnet build "CognitiveRelay.csproj" -c Release -o /app/build
+RUN dotnet build "CognitiveRelay.csproj" -c Debug -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "CognitiveRelay.csproj" -c Release -o /app/publish
+RUN dotnet publish "CognitiveRelay.csproj" -c Debug -o /app/publish
 
 FROM base AS final
 WORKDIR /app
