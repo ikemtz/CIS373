@@ -9,3 +9,4 @@
 /cognitive-relay/.vs/CognitiveRelay
 /cognitive-relay/.vs/config
 /cognitive-relay/src/Properties/PublishProfiles
+*.zip
