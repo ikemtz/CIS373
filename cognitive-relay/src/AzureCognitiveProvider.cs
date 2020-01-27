@@ -1,4 +1,4 @@
-﻿using CognitiveRelay.Models;
+using CognitiveRelay.Models;
 using Microsoft.Extensions.Configuration;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -11,8 +11,8 @@ namespace CognitiveRelay
         private readonly string _apiKey;
         public AzureCognitiveServiceProvider(IConfiguration config)
         {
-            _apiUrl = config.GetValue<string>("sentimentApi:url");
-            _apiKey = config.GetValue<string>("sentimentApi:key");
+            _apiUrl = config.GetValue<string>("sentimentApi.url");
+            _apiKey = config.GetValue<string>("sentimentApi.key");
         }
 
         public async Task<SentimentResponse> AnalyzeSentiment(Comment comment)

@@ -20,8 +20,9 @@ namespace CognitiveRelay
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
+      var instrumentationKey = Configuration.GetValue<string>("instrumentationKey");
       services.AddControllers();
-      services.AddApplicationInsightsTelemetry();
+      services.AddApplicationInsightsTelemetry(instrumentationKey);
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
       services.AddSingleton<IDataAccess, DataAccess>();
       services.AddSingleton<IAzureCognitiveServiceProvider, AzureCognitiveServiceProvider>();
