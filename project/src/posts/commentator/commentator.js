@@ -7,15 +7,12 @@ let domData = {
   cmbLanguages: document.getElementById('cmbLanguage'),
   comment: document.getElementById('txtComment')
 };
-const cogUrl = 'https://ikemtz-cognitiveservices.azurewebsites.net/api/comments';
+const cogUrl = 'commentatorMS/api/comments';
 let languages = {
   en: 'English',
   es: 'Spanish',
   fr: 'French',
   it: 'Italian',
-  de: 'German',
-  el: 'Greek',
-  'pt-PT': 'Portugese'
 };
 
 // Validates and submits a comment to cognitive service

@@ -6,5 +6,6 @@ Professor: Ali Rahat-Zafar
 
 Discussion Site Hosted at: https://ikemtz-cis373.azurewebsites.net
 Project Site Hosted at: https://coolwebdev.azurewebsites.net
+Cognitive Services API Hosted at: https://ikemtz-cognitiveservices.azurewebsites.net/
 
 Docker Repository: https://hub.docker.com/repository/docker/ikemtz/cis373
