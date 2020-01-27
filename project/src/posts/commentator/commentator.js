@@ -83,9 +83,9 @@ function addLanguagesToDropDown() {
 }
 
 (async () => {
+  addLanguagesToDropDown();
   const resp = await httpRequestWrapper(cogUrl);
   const previousData = JSON.parse(resp);
-  addLanguagesToDropDown();
   previousData.forEach(x => {
     addCommentToPreviousGrid(x.text, x.language, x.score);
   });
