@@ -7,6 +7,7 @@
     <ApplicationInsightsResourceId>/subscriptions/73d8fe35-a8c6-420c-916e-e1c46b4afbc4/resourcegroups/ValenciaDemo/providers/microsoft.insights/components/ikemtz-cognitiveservices</ApplicationInsightsResourceId>
     <ApplicationInsightsAnnotationResourceId>/subscriptions/73d8fe35-a8c6-420c-916e-e1c46b4afbc4/resourcegroups/ValenciaDemo/providers/microsoft.insights/components/ikemtz-cognitiveservices</ApplicationInsightsAnnotationResourceId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <StartupObject>CognitiveRelay.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

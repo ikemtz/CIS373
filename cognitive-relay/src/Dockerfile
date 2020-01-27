@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["src/CognitiveRelay.csproj", "src/"]
+COPY ["CognitiveRelay.csproj", "src/"]
 RUN dotnet restore "src/CognitiveRelay.csproj"
 COPY . .
 WORKDIR "/src/src"
