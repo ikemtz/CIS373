@@ -2,11 +2,22 @@
 // Simply adds or removes the "show" class in repsponse to the burger being clicked.
 function toggleNavBarBurger() {
   const nav = document.getElementById('navbarNav');
+  toggleShow(nav);
+}
+
+function togglePostDropDown() {
+  const postDropDown = document.getElementById('post-drop-down');
+  const postMenuLink = document.getElementById('post-menu-link');
+  toggleShow(postDropDown);
+  toggleShow(postMenuLink);
+}
+
+function toggleShow(element) {
   const show = 'show';
-  if (nav.classList.contains(show)) {
-    nav.classList.remove(show);
+  if (element.classList.contains(show)) {
+    element.classList.remove(show);
   } else {
-    nav.classList.add(show);
+    element.classList.add(show);
   }
 }
 // Uses an asynchronous XHR request to read the raw nav.html file and replace the <navelement> with it.

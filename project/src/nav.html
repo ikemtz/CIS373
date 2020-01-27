@@ -1,7 +1,7 @@
 <!--
   Using a templating approach here so I can reuse the following HTML on multiple pages
 -->
-<nav class="navbar navbar-dark">
+<nav class="navbar navbar-expand-md navbar-dark">
   <a class="navbar-brand" href="..">
     <img src="images/profile_icon.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="" />
     Cool-Web-Dev
@@ -11,24 +11,23 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="./posts/dicer">Dicer Demo</a>
+        <a class="nav-link" href="//github.com/ikemtz/CIS373" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./posts/commentator">Commentator</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./posts/tic-tac-toe">Tic Tac Toe</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./posts/type-ahead">Type Ahead</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./posts/gps">GPS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./posts/cheese">Cheese</a>
+      <li id="post-drop-down" class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false" onclick="togglePostDropDown()">
+          Posts
+        </a>
+        <div id="post-menu-link" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="./posts/dicer">Dicer Demo</a>
+          <a class="dropdown-item" href="./posts/commentator">Commentator</a>
+          <a class="dropdown-item" href="./posts/tic-tac-toe">Tic Tac Toe</a>
+          <a class="dropdown-item" href="./posts/type-ahead">Type Ahead</a>
+          <a class="dropdown-item" href="./posts/gps">GPS</a>
+          <a class="dropdown-item" href="./posts/cheese">Cheese</a>
+        </div>
       </li>
     </ul>
   </div>
