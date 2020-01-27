@@ -53,7 +53,6 @@ namespace CognitiveRelay.Controllers
             }
             else
             {
-
                 comment.CreatedOn = DateTime.UtcNow;
                 await _dataAccess.UpdateCommentAsync(comment);
             }

@@ -5,6 +5,7 @@
 *.js            text eol=lf
 *.json          text eol=lf
 *.html          text eol=lf
+*.css           text eol=lf
 *.scss          text eol=lf
 *.yml           text eol=lf
 *.YAML          text eol=lf
