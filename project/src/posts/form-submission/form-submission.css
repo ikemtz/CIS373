@@ -1,0 +1,41 @@
+/*
+    Isaac Martinez
+    1/27/2020
+    Week #4
+    Web Design and Development (CIS373002VA016-1202-001)
+*/
+div.im-row {
+  padding: 10px;
+}
+.im-row label {
+  padding-right: 15px;
+  font-size: larger;
+  width: 150px;
+  text-align: right;
+  vertical-align: top;
+}
+.im-row input,
+.im-row select,
+textarea {
+  width: 300px;
+  border-radius: 5px;
+  padding: 5px;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: darkcyan;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+span.required {
+  color: red;
+}
+
+#result {
+  word-wrap: break-word;
+  max-width: 300px;
+}
