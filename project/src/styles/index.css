@@ -1,0 +1,25 @@
+/*
+    Isaac Martinez
+    2/28/2020
+    Week #6
+    Web Design and Development (CIS373002VA016-1202-001)
+*/
+h2 {
+  animation-name: marquee;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+@keyframes marquee {
+  0% {
+    text-align: left;
+  }
+  33.33% {
+    text-align: center;
+    color: cyan;
+  }
+  66.66% {
+    text-align: right;
+    color: darkcyan;
+  }
+}

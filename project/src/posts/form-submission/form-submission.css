@@ -1,7 +1,7 @@
 /*
     Isaac Martinez
-    1/27/2020
-    Week #4
+    2/28/2020
+    Week #6
     Web Design and Development (CIS373002VA016-1202-001)
 */
 div.im-row {
@@ -38,4 +38,10 @@ span.required {
 #result {
   word-wrap: break-word;
   max-width: 300px;
+}
+
+input,
+select,
+textarea {
+  background-color: lightcyan;
 }
