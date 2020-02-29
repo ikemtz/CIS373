@@ -5,17 +5,16 @@
     Web Design and Development (CIS373002VA016-1202-001)
 */
 h2 {
+  color: lightcyan;
   animation-name: marquee;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
 }
 @keyframes marquee {
-  0% {
-    text-align: left;
-  }
   33.33% {
     text-align: center;
+    font-size: x-large;
     color: cyan;
   }
   66.66% {
